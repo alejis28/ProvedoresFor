@@ -1,0 +1,69 @@
+body {
+  background: #0f2027;  
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff; 
+}
+
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #00d4ff;  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  font-size: 1em;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #00d4ff;
+  color: #0f2027;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #00a3cc;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: #ff4d4d;  
+  margin-top: -15px;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+}

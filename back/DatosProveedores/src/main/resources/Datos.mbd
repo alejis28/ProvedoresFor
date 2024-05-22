@@ -1,0 +1,15 @@
+USUARIO PROVEDOR
+{
+    "razonSocial":"Americanino",
+    "nit":"90800021",
+    "representanteLegal":"Aleja Arango",
+    "telefonoContacto":"3043335900",
+    "email":"correo@correo.com",
+    "direccion":"calle 67a#33-50"
+}
+UBICACION
+{
+   "pais":"colombia",
+   "ciudad":"medellin",
+   "departamento":"antioquia"
+}
